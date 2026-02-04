@@ -9,8 +9,7 @@ A Convolutional Neural Network (CNN) model for recognizing handwritten digits (0
 ```bash
 # Clone repository 
 git clone https://github.com/yourusername/handwritten-digit-recognition.git
-cd handwritten-digit-recognition
+cd handwritten-digit-recognition 
 
 # Install dependencies
-pip install -r requirements.txt.                   
-                             
+pip install -r requirements.txt.              
