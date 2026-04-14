@@ -18,20 +18,20 @@ description:
     system using deep learning. It uses image data to train a CNN model
     capable of accurately classifying handwritten digits. The project
     demonstrates core deep learning concepts including data preprocessing,
-    model architecture design, training, evaluation, and prediction.
-
+    model architecture design, training, evaluation, and prediction. 
+ 
 problem_statement: >
-  Handwritten digit recognition is a fundamental problem in computer vision
+  Handwritten digit recognition is a fundamental problem in computer vision 
   with applications in OCR systems, banking, postal services, and form
   automation. Manual recognition is inefficient and error-prone.
-  This project automates digit recognition using a deep learning approach.
-
+  This project automates digit recognition using a deep learning approach. 
+ 
 solution:
-  approach:
+  approach:  
     - Use labeled image data of handwritten digits
     - Apply image preprocessing techniques
-    - Train a Convolutional Neural Network (CNN)
-    - Evaluate performance on unseen test data
+    - Train a Convolutional Neural Network (CNN)  
+    - Evaluate performance on unseen test data   
     - Predict digits from new handwritten images
 
 features:
