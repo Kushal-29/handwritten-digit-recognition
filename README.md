@@ -6,15 +6,15 @@ A Convolutional Neural Network (CNN) model for recognizing handwritten digits (0
 project:
   name: Handwritten Digit Recognition 
   type: Machine Learning | Computer Vision 
-  domain: Deep Learning  
-  status: Completed 
+  domain: Deep Learning    
+  status: Completed    
 
-description:
+description:    
   short: >
-    A deep learning-based system that recognizes handwritten digits (0–9)
+    A deep learning-based system that recognizes handwritten digits (0–9)   
     using a Convolutional Neural Network (CNN).
-  long: >
-    This project implements an end-to-end handwritten digit recognition
+  long: >   
+    This project implements an end-to-end handwritten digit recognition   
     system using deep learning. It uses image data to train a CNN model
     capable of accurately classifying handwritten digits. The project
     demonstrates core deep learning concepts including data preprocessing,
@@ -47,7 +47,7 @@ tech_stack:
   libraries:
     - TensorFlow
     - Keras
-    - NumPy
+    - NumPy   
     - Matplotlib
   model_type:
     - Convolutional Neural Network (CNN)
@@ -74,19 +74,19 @@ workflow:
   steps:
     - Load and explore the dataset
     - Normalize image pixel values
-    - Reshape data for CNN input
+    - Reshape data for CNN input   
     - Build CNN architecture
     - Train model on training dataset
     - Evaluate model on test dataset
-    - Save trained model
-    - Predict handwritten digits
+    - Save trained model   
+    - Predict handwritten digits   
 
-model_architecture:
-  layers:
-    - Convolution Layer (Conv2D)
-    - Activation Function (ReLU)
-    - Pooling Layer (MaxPooling)
-    - Flatten Layer
+model_architecture:  
+  layers:  
+    - Convolution Layer (Conv2D)   
+    - Activation Function (ReLU)  
+    - Pooling Layer (MaxPooling)  
+    - Flatten Layer   
     - Fully Connected Dense Layers
     - Output Layer (Softmax)
 
