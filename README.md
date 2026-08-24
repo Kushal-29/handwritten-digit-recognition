@@ -5,19 +5,19 @@ A Convolutional Neural Network (CNN) model for recognizing handwritten digits (0
   
 project:   
   name: Handwritten Digit Recognition 
-  type: Machine Learning | Computer Vision 
+  type: Machine Learning | Computer Vision   
   domain: Deep Learning     
-  status: Completed       
+  status: Completed          
    
-description:      
-  short: >        
-    A deep learning-based system that recognizes handwritten digits (0–9)      
+description:        
+  short: >          
+    A deep learning-based system that recognizes handwritten digits (0–9)        
     using a Convolutional Neural Network (CNN).   
-  long: >      
-    This project implements an end-to-end handwritten digit recognition   
+  long: >        
+    This project implements an end-to-end handwritten digit recognition      
     system using deep learning. It uses image data to train a CNN model
     capable of accurately classifying handwritten digits. The project
-    demonstrates core deep learning concepts including data preprocessing,
+    demonstrates core deep learning concepts including data preprocessing,  
     model architecture design, training, evaluation, and prediction. 
  
 problem_statement: >
@@ -41,7 +41,7 @@ features:
   - Model evaluation using standard metrics
   - Support for real-time digit prediction (if extended)
 
-tech_stack:
+tech_stack:  
   language:
     - Python
   libraries:
@@ -60,7 +60,7 @@ dataset:
   split:
     training_samples: 60000
     testing_samples: 10000
-
+  
 project_structure:
   root:
     - notebooks:
@@ -80,7 +80,7 @@ workflow:
     - Evaluate model on test dataset
     - Save trained model   
     - Predict handwritten digits   
-
+  
 model_architecture:  
   layers:  
     - Convolution Layer (Conv2D)   
@@ -105,7 +105,7 @@ usage:
     - Clone the repository
     - Create a virtual environment
     - Install dependencies
-  commands:
+  commands:  
     clone_repo: git clone https://github.com/Kushal-29/handwritten-digit-recognition.git
     install_dependencies: pip install -r requirements.txt
     run_notebook: Open and run the Jupyter notebook
@@ -132,7 +132,7 @@ future_enhancements:
   - Real-time digit recognition using webcam
   - Web application deployment using Flask or FastAPI
   - Support for custom handwritten input
-  - Hyperparameter tuning for improved accuracy
+  - Hyperparameter tuning for improved accuracy   
   - Model optimization for faster inference
 
 license:
@@ -140,6 +140,6 @@ license:
   usage: Free to use, modify, and distribute
 
 summary: >
-  This project showcases a complete deep learning workflow for handwritten
+  This project showcases a complete deep learning workflow for handwritten   
   digit recognition using CNNs. It is well-suited for AI/ML portfolios,
   academic demonstrations, and interview discussions.
