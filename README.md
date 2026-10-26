@@ -1,19 +1,19 @@
 # Handwritten Digit Recognition Using CNN  
-                             
-## 📋 Overview     
+                                
+## 📋 Overview         
 A Convolutional Neural Network (CNN) model for recognizing handwritten digits (0-9) using the MNIST dataset. Achieves over 98% accuracy.  
-  
-project:   
-  name: Handwritten Digit Recognition 
+        
+project:      
+  name: Handwritten Digit Recognition    
   type: Machine Learning | Computer Vision   
-  domain: Deep Learning     
-  status: Completed          
-   
-description:        
+  domain: Deep Learning       
+  status: Completed            
+       
+description:           
   short: >          
-    A deep learning-based system that recognizes handwritten digits (0–9)        
-    using a Convolutional Neural Network (CNN).   
-  long: >        
+    A deep learning-based system that recognizes handwritten digits (0–9)          
+    using a Convolutional Neural Network (CNN).      
+  long: >            
     This project implements an end-to-end handwritten digit recognition      
     system using deep learning. It uses image data to train a CNN model
     capable of accurately classifying handwritten digits. The project
